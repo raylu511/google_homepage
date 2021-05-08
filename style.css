@@ -1,0 +1,32 @@
+
+      ul{
+        list-style-type: none;
+        }
+
+         li{
+            float:left;
+        }
+        li a{
+            display:block;
+            padding: 14px 16px;
+            background-color: white; 
+            color:black;
+            text-decoration: none;
+            ;
+        }
+        
+        .photo{
+            position: relative;
+            left: 600px;
+            top: 300px;
+        }
+        .searchbar{
+            position:relative;
+            left:800px;
+            top:350px;
+            
+        }
+        body{       
+            font-size:20px;     
+            font-family:Arial, sans-serif;
+        }
