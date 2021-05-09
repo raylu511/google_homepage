@@ -1,32 +1,77 @@
-
-      ul{
-        list-style-type: none;
+        .topnav{
+            overflow:hidden;
         }
-
-         li{
+        .topnav a{
             float:left;
-        }
-        li a{
-            display:block;
-            padding: 14px 16px;
-            background-color: white; 
-            color:black;
+            color:#333;
+            text-align:center;
+            padding:14px 16px;
             text-decoration: none;
-            ;
+            font-size:17px;
         }
-        
+        .topnav-right{
+            float:right;
+        }
+      
+    
         .photo{
             position: relative;
-            left: 600px;
-            top: 300px;
+            left: 800px;
+            top: 200px;
         }
         .searchbar{
             position:relative;
-            left:800px;
-            top:350px;
-            
+            left:675px;
+            top:200px;
         }
-        body{       
-            font-size:20px;     
-            font-family:Arial, sans-serif;
-        }
+         
+            body {
+                height: 100vh;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: small;
+            }
+        
+       
+            form {
+                display: block;
+                margin-top: 0em;
+            }
+            input{
+                width:500px;
+                height:30px;
+                border-radius:50px;
+                border: 1px solid #e1e1e1;
+                margin:15px;
+            }
+            .searchimg
+            {
+                width:30px;
+                background-color:transparent;
+                position:relative;
+                right:550px;
+                top:5px;
+            }
+            #gsearch
+            {
+                position:relative;
+                top:50px;
+                right:475px;
+            }
+            #flucky
+            {
+                position:relative;
+                top:50px;
+                right:400px;
+            }
+            button{
+                
+                border-radius: 50px;
+                background-color: transparent;
+                border-color: whitesmoke;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+                margin:20px;
+            }
+           
+        
